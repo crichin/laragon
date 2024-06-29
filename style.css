@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(29, 18, 1); 
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-left, .nav-right {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-left li, .nav-right li {
+    margin: 0 10px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a, .nav-left a, .nav-right a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover, .nav-left a:hover, .nav-right a:hover {
+    color: #ddd;
+}
+
+main {
+    padding: 20px;
+}
+
+
+
+#contact h2 {
+    text-align: center;
+    color: #333;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px; 
+}
+.contact-form {
+    flex: 1;
+    margin-bottom: 20px; 
+}
+
+.map {
+    flex: 1;
+    margin-left: 20px; 
+}
+
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+    position: relative;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    background: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-bottom: 2px solid #777; 
+}
+
+
+
+
+#contact-details {
+    
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around; /* Utilisation de space-around pour réduire l'espacement */
+    align-items: center;
+    gap: 20px; /* Ajout d'un espacement entre les éléments */
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+}
+
+.info-item img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.info-item p {
+    margin: 0;
+}
+
+
+
